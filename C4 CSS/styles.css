@@ -1,0 +1,46 @@
+:root {
+    --Primary-color: hsla(214, 79%, 74%, 0.733);
+    --Secondary-color: rgba(189, 219, 189, 0.486);
+    --Tertiary-color: rgba(98, 98, 141, 0.541);
+    --Text-1-color: black;
+    --Text-2-color: white;
+  }
+
+  header {
+    background-color: var(--Primary-color);
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  header nav ul {
+    display: flex;
+    align-content: center;
+  }
+
+  header nav ul li {
+    margin: 15px;
+  }
+
+
+
+  main {
+    background-color: var(--Secondary-color);
+    padding: 5px;
+  }
+
+  section {
+    background-color: var(--Tertiary-color);
+    padding: 5px;
+    
+  }
+
+  footer {
+    background-color: var(--Primary-color);
+    padding: 5px;
+  }
+
+  h2 {
+    text-align: center;
+  }
